@@ -2,4 +2,10 @@
 <resources>
     <string name="app_name">Networking</string>
     <string name="front">Attempt to: </string>
+    <string name="video_button">Stream Video</string>
+    <string name="music_button">Stream Music</string>
+    <string name="map">Map</string>
+    <string name="media">Media</string>
+    <string name="menu">Menu</string>
+    <string name="bathroom">Bathroom</string>
 </resources>

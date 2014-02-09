@@ -3,61 +3,53 @@
     android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#000FFF"
-    android:layout_paddingBottom="500dp"
+    android:background="#ff5fc3ff"
     >
-<TextView
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/front"
-
-    />
-    <Button
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:text="Map"
-            android:textSize="20dp"
-            android:id="@+id/bMap"
-            android:layout_toRightOf="@+id/bFoodnBev"
-            android:layout_centerVertical="true"
+    <DigitalClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="3"
+            android:scaleY="3"
+            android:layout_marginLeft="800sp"
+            android:layout_marginTop="20sp"
+            android:textColor="00000000"
             />
     <Button
-          android:layout_width="200dp"
-          android:layout_height="200dp"
-          android:text="Entertainment"
-          android:textSize="20dp"
-          android:id="@+id/bEntertainment"
-          android:layout_centerVertical="true"
-          android:layout_marginLeft="75dp"
-          />
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:text="@string/media"
+            android:textSize="40sp"
+            android:id="@+id/bEntertainment"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="75dp"
+            />
     <Button
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:text="Lavatory Wait"
-            android:textSize="20dp"
-            android:layout_marginLeft="5dp"
+            android:text="@string/bathroom"
+            android:textSize="40sp"
             android:layout_gravity="bottom"
             android:id="@+id/bLavatory"
-            android:layout_marginBottom="20dp"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@+id/bEntertainment"
             />
     <Button
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:text="Food and Beverage Selections"
+            android:text="@string/menu"
             android:layout_centerVertical="true"
-            android:textSize="20dp"
-            android:layout_marginBottom="20dp"
+            android:textSize="40sp"
             android:id="@+id/bFoodnBev"
             android:layout_toRightOf="@+id/bLavatory"
             />
     <Button
             android:layout_width="200dp"
-            android:layout_height="100dp"
-            android:text="Settings"
-            android:textSize="20dp"
-            android:id="@+id/bSettings"
+            android:layout_height="200dp"
+            android:text="@string/map"
+            android:textSize="40sp"
+            android:id="@+id/bMap"
+            android:layout_toRightOf="@+id/bFoodnBev"
+            android:layout_centerVertical="true"
             />
  <TextView
          android:layout_width="fill_parent"
