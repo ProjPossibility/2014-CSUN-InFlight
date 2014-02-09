@@ -3,7 +3,9 @@ package com.csungreen.In_Plane_App;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 import org.apache.http.ProtocolVersion;
 import org.apache.http.RequestLine;
 import org.apache.http.client.HttpClient;
@@ -21,12 +23,22 @@ public class Networking extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-
-
     }
-        public void onClick (View go) {
+
+    public void onClickEntertainment() {
+        final Button entertainmentButton = (Button) findViewById(R.id.bEntertainment);
+        entertainmentButton.setOnClickListener();
+    }
+
+        public void onClickBathroomAction () {
+            Button lavatory = (Button) findViewById(R.id.bLavatory);
                 HttpClient ourServer = new DefaultHttpClient();
+            if ()
                 HttpPost postServer = new HttpPost("http://172.31.176.125/bathroom_queue.php");
 
             }
+   /* public void onClick (View go) {
+        setContentView(R.layout.lavatory);
+        ToggleButton bathroom = new ToggleButton();
+    }*/
 }
