@@ -9,12 +9,14 @@
     android:layout_height="wrap_content"
     android:text="@string/front"
     />
-  <Button android:layout_width="100dp"
+  <Button
+          android:layout_width="100dp"
           android:layout_height="50dp"
           android:text="Watch Movies"
           android:layout_gravity="center"
           />
- <TextView android:layout_width="fill_parent"
+ <TextView
+         android:layout_width="fill_parent"
            android:layout_height="fill_parent"
            android:id="@+id/request_response"
          />

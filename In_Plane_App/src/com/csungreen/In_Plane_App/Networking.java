@@ -21,6 +21,7 @@ public class Networking extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
+
     }
     public RequestLine getRequestLine() {
         RequestLine req = new RequestLine() {
