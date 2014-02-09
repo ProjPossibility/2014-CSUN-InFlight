@@ -27,7 +27,12 @@ public class Networking extends Activity
 
     public void onClickEntertainment() {
         final Button entertainmentButton = (Button) findViewById(R.id.bEntertainment);
-        entertainmentButton.setOnClickListener();
+        entertainmentButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent activity
+            }
+        }
     }
 
         public void onClickBathroomAction () {

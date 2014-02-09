@@ -128,8 +128,11 @@
       <file leaf-file-name="Networking.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/Networking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="49" selection-start="914" selection-end="914" vertical-scroll-proportion="0.5192926" vertical-offset="0" max-vertical-offset="680">
-              <folding />
+            <state line="32" column="31" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.6012862" vertical-offset="0" max-vertical-offset="765">
+              <folding>
+                <element signature="e#912#1063#0" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -456,7 +459,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -567,7 +570,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/Networking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="53" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="646">
-          <folding />
+          <folding>
+            <element signature="e#912#1063#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -603,7 +609,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/Networking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="76" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="952">
-          <folding />
+          <folding>
+            <element signature="e#912#1063#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -639,7 +648,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/Networking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="357">
-          <folding />
+          <folding>
+            <element signature="e#912#1063#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -684,8 +696,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/Networking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="49" selection-start="914" selection-end="914" vertical-scroll-proportion="0.5192926" vertical-offset="0" max-vertical-offset="680">
-          <folding />
+        <state line="32" column="31" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.6012862" vertical-offset="0" max-vertical-offset="765">
+          <folding>
+            <element signature="e#912#1063#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
