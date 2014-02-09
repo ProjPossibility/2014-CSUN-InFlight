@@ -9,12 +9,30 @@
     android:layout_height="wrap_content"
     android:text="@string/front"
     />
+    <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Map"
+            android:layout_gravity="center"
+            />
   <Button
-          android:layout_width="100dp"
+          android:layout_width="150dp"
           android:layout_height="50dp"
-          android:text="Watch Movies"
+          android:text="Entertainment"
           android:layout_gravity="center"
           />
+    <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Lavatory Wait"
+            android:layout_gravity="center"
+            />
+    <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Food and Beverage Selections"
+            android:layout_gravity="center"
+            />
  <TextView
          android:layout_width="fill_parent"
            android:layout_height="fill_parent"

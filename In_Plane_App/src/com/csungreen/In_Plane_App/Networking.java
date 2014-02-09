@@ -2,6 +2,7 @@ package com.csungreen.In_Plane_App;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 import org.apache.http.ProtocolVersion;
 import org.apache.http.RequestLine;
@@ -23,29 +24,9 @@ public class Networking extends Activity
 
 
     }
-    public RequestLine getRequestLine() {
-        RequestLine req = new RequestLine() {
-            @Override
-            public String getMethod() {
-                return null;
-            }
-
-            @Override
-            public ProtocolVersion getProtocolVersion() {
-                return null;
-            }
-
-            @Override
-            public String getUri() {
+        public void onClick (View go) {
                 HttpClient ourServer = new DefaultHttpClient();
-                HttpPost postServer = new HttpPost("http://172.31.176.125");
-                return null;
+                HttpPost postServer = new HttpPost("http://172.31.176.125/bathroom_queue.php");
+
             }
-        };
-
-
-        display.setText("Here's your video: " + video);
-        return req;
-
-    }
 }
