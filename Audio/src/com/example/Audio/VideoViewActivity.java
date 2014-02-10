@@ -18,10 +18,9 @@ public class VideoViewActivity extends Activity {
     VideoView videoview;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         // Get the layout from video_main.xml
         setContentView(R.layout.videoview_main);

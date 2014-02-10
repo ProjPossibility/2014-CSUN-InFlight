@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Audio/Audio.iml" filepath="$PROJECT_DIR$/Audio/Audio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/In_Plane_App/In_Plane_App.iml" filepath="$PROJECT_DIR$/In_Plane_App/In_Plane_App.iml" />
+      <module fileurl="file://C:/Android-sdk/sdk/extras/google/google_play_services/libproject/google-play-services_lib/google-play-services_lib.iml" filepath="C:/Android-sdk/sdk/extras/google/google_play_services/libproject/google-play-services_lib/google-play-services_lib.iml" />
+    </modules>
+  </component>
+</project>
+

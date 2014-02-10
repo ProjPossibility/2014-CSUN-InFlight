@@ -11,6 +11,7 @@ public class MyActivity extends Activity {
 
     Button video;
     Button music;
+    //Button map;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,8 @@ public class MyActivity extends Activity {
         // Locate the button in activity_main.xml
        video = (Button) findViewById(R.id.MyVideoButton);
        music = (Button) findViewById(R.id.MyMusicButton);
+       //map = (Button) findViewById(R.id.MyMapButton);
+
         // Capture button clicks
         video.setOnClickListener(new OnClickListener() {
             public void onClick(View arg0) {
@@ -42,6 +45,19 @@ public class MyActivity extends Activity {
                 startActivity(myIntent);
             }
         });
+        //Code for Map Not Working
+//        map.setOnClickListener(new OnClickListener() {
+//            public void onClick(View arg0) {
+//
+//                // Start NewActivity.class
+//                Intent myIntent = new Intent(MyActivity.this,
+//                        MapViewActivity.class);
+//                myIntent.putExtra("streamType", "map");
+//                startActivity(myIntent);
+//            }
+//        });
+
+
     }
 
 }
