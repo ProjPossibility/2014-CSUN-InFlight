@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="Unnamed-0" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="Unnamed-1" />
+        <option name="packageNamePattern" value="com.csungreen.In_Plane_App" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
       <GlobalState />
@@ -39,6 +59,13 @@
           <theme>@android:style/Theme</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/menu.xml">
+        <config>
+          <device>Nexus 7 2013</device>
+          <state>Landscape</state>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/res/layout/videoview_main.xml">
         <config>
           <device>Nexus 7 2013</device>
@@ -46,6 +73,9 @@
         </config>
       </layout>
     </layouts>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Unnamed-1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="509fc33b-9c7a-4d93-bf8f-1ea908382478" name="Default" comment="" />
@@ -111,17 +141,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="47" selection-start="2856" selection-end="2856" vertical-scroll-proportion="-12.7" vertical-offset="555" max-vertical-offset="1428">
+            <state line="2" column="32" selection-start="83" selection-end="83" vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="340">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ic_launcher.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/menu.xml">
+          <provider editor-type-id="text-editor">
+            <state line="7" column="4" selection-start="265" selection-end="265" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="340">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/MenuActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="38" selection-start="868" selection-end="868" vertical-scroll-proportion="-8.84" vertical-offset="255" max-vertical-offset="1666">
               <folding>
-                <element signature="e#714#729#0" expanded="true" />
-                <element signature="e#1040#1058#0" expanded="true" />
-                <element signature="e#1422#1436#0" expanded="true" />
-                <element signature="e#1751#1764#0" expanded="true" />
-                <element signature="e#2225#2249#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#990#998#0" expanded="true" />
+                <element signature="e#1429#1437#0" expanded="true" />
+                <element signature="e#1633#3558#0" expanded="true" />
+                <element signature="e#2722#3027#0" expanded="true" />
+                <element signature="e#3000#3001#0" expanded="true" />
+                <element signature="e#3086#3391#0" expanded="true" />
+                <element signature="e#3364#3365#0" expanded="true" />
+                <element signature="e#3547#3548#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Networking.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/Networking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="36" selection-start="2458" selection-end="2470" vertical-scroll-proportion="-0.03250478" vertical-offset="1224" max-vertical-offset="1819">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="videoview_main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout-land/videoview_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="340">
+              <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -129,10 +211,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <file leaf-file-name="EnqueueTask.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/EnqueueTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="46" selection-start="575" selection-end="575" vertical-scroll-proportion="-8.16" vertical-offset="0" max-vertical-offset="340">
+            <state line="1" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="-0.68" vertical-offset="0" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
@@ -141,20 +223,10 @@
       <file leaf-file-name="DequeueTask.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/DequeueTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="629">
+            <state line="1" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="-0.68" vertical-offset="0" max-vertical-offset="663">
               <folding>
                 <element signature="imports" expanded="false" />
-                <element signature="e#883#898#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnqueueTask.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/EnqueueTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="867">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -162,60 +234,9 @@
       <file leaf-file-name="RecheckTask.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/RecheckTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1122">
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1142#1157#0" expanded="false" />
-                <element signature="e#2064#2254#0" expanded="false" />
-                <element signature="e#2239#2240#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MediaActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/MediaActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="48" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.91977614" vertical-offset="425" max-vertical-offset="1122">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1638#2095#0" expanded="true" />
-                <element signature="e#2084#2085#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VideoViewActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/VideoViewActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="40" selection-start="2218" selection-end="2218" vertical-scroll-proportion="-40.8" vertical-offset="0" max-vertical-offset="1241">
+            <state line="13" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="1190">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="videoview_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/videoview_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="videoview_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout-land/videoview_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -244,25 +265,28 @@
         <option value="$PROJECT_DIR$/res/layout/lavatory.xml" />
         <option value="$PROJECT_DIR$/res/layout/videoview_main.xml" />
         <option value="$PROJECT_DIR$/src/com/csungreen/In_Plane_App/VideoViewActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/media.xml" />
         <option value="$PROJECT_DIR$/res/layout-land/media.xml" />
         <option value="$PROJECT_DIR$/src/com/csungreen/In_Plane_App/MyActivity.java" />
         <option value="$PROJECT_DIR$/src/BathroomActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/csungreen/In_Plane_App/DequeueTask.java" />
-        <option value="$PROJECT_DIR$/src/com/csungreen/In_Plane_App/EnqueueTask.java" />
-        <option value="$PROJECT_DIR$/src/com/csungreen/In_Plane_App/RecheckTask.java" />
-        <option value="$PROJECT_DIR$/src/com/csungreen/In_Plane_App/Networking.java" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/csungreen/In_Plane_App/MediaActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/csungreen/In_Plane_App/MenuActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/csungreen/In_Plane_App/EnqueueTask.java" />
+        <option value="$PROJECT_DIR$/src/com/csungreen/In_Plane_App/DequeueTask.java" />
+        <option value="$PROJECT_DIR$/src/com/csungreen/In_Plane_App/RecheckTask.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/com/csungreen/In_Plane_App/Networking.java" />
+        <option value="$PROJECT_DIR$/res/layout/menu.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -395,10 +419,6 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xhdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -415,42 +435,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="drawable-mdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="In_Plane_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="In_Plane_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-ldpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="In_Plane_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="In_Plane_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-hdpi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -476,10 +460,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="00ea64cc" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="015d49021763f809" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rippe_000\IdeaProjects\In_Plane_App\res\drawable-xhdpi" />
+      <recent name="C:\Users\rippe_000\IdeaProjects\In_Plane_App\res\drawable-mdpi" />
+      <recent name="C:\Users\rippe_000\IdeaProjects\In_Plane_App\res\drawable-ldpi" />
       <recent name="C:\Users\rippe_000\IdeaProjects\In_Plane_App\res\drawable-hdpi" />
     </key>
   </component>
@@ -667,34 +654,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40104166" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6703125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32690248" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33440515" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32665965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3951528" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2457627" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32665965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -780,7 +767,10 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="55" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="544">
-          <folding />
+          <folding>
+            <element signature="e#380#398#0" expanded="true" />
+            <element signature="e#513#531#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -789,10 +779,6 @@
         <state line="52" column="45" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2142">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3165#3301#0" expanded="true" />
-            <element signature="e#3290#3291#0" expanded="true" />
-            <element signature="e#3345#3525#0" expanded="true" />
-            <element signature="e#3514#3515#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -802,8 +788,6 @@
         <state line="47" column="40" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0" vertical-offset="529" max-vertical-offset="1139">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1638#2095#0" expanded="true" />
-            <element signature="e#2084#2085#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -865,7 +849,10 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="42" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="391">
-          <folding />
+          <folding>
+            <element signature="e#380#398#0" expanded="true" />
+            <element signature="e#513#531#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -874,10 +861,6 @@
         <state line="32" column="31" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="765">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3165#3301#0" expanded="true" />
-            <element signature="e#3290#3291#0" expanded="true" />
-            <element signature="e#3345#3525#0" expanded="true" />
-            <element signature="e#3514#3515#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -912,7 +895,10 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="41" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="374">
-          <folding />
+          <folding>
+            <element signature="e#380#398#0" expanded="true" />
+            <element signature="e#513#531#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -921,10 +907,6 @@
         <state line="10" column="53" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="646">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3165#3301#0" expanded="true" />
-            <element signature="e#3290#3291#0" expanded="true" />
-            <element signature="e#3345#3525#0" expanded="true" />
-            <element signature="e#3514#3515#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -949,7 +931,10 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="43" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="357">
-          <folding />
+          <folding>
+            <element signature="e#380#398#0" expanded="true" />
+            <element signature="e#513#531#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -958,10 +943,6 @@
         <state line="39" column="76" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="952">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3165#3301#0" expanded="true" />
-            <element signature="e#3290#3291#0" expanded="true" />
-            <element signature="e#3345#3525#0" expanded="true" />
-            <element signature="e#3514#3515#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -986,7 +967,10 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
+          <folding>
+            <element signature="e#380#398#0" expanded="true" />
+            <element signature="e#513#531#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -995,16 +979,91 @@
         <state line="5" column="13" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="357">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3165#3301#0" expanded="true" />
-            <element signature="e#3290#3291#0" expanded="true" />
-            <element signature="e#3345#3525#0" expanded="true" />
-            <element signature="e#3514#3515#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/clouds.jpg">
       <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/lavatory.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="45" selection-start="158" selection-end="158" vertical-scroll-proportion="-1.02" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="588" selection-end="588" vertical-scroll-proportion="0.61077845" vertical-offset="0" max-vertical-offset="1666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/EnqueueTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="-0.68" vertical-offset="0" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/DequeueTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="-0.68" vertical-offset="0" max-vertical-offset="663">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/RecheckTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="42" selection-start="469" selection-end="479" vertical-scroll-proportion="0.33278957" vertical-offset="0" max-vertical-offset="613">
+          <folding>
+            <element signature="e#380#398#0" expanded="true" />
+            <element signature="e#513#531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Havok/adt-bundle-windows-x86-20131030/adt-bundle-windows-x86-20131030/sdk/sources/android-15/com/android/internal/os/ZygoteInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="778" column="0" selection-start="26465" selection-end="26465" vertical-scroll-proportion="4.4435945" vertical-offset="10222" max-vertical-offset="12988">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="32" selection-start="83" selection-end="83" vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-land/media.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="55" selection-start="1105" selection-end="1105" vertical-scroll-proportion="-7.74" vertical-offset="38" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
@@ -1020,24 +1079,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/videoview_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
+        <state line="14" column="17" selection-start="557" selection-end="557" vertical-scroll-proportion="0.59351623" vertical-offset="0" max-vertical-offset="401">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="55" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/media.xml">
@@ -1050,105 +1097,70 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-land/media.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="55" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/lavatory.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="45" selection-start="158" selection-end="158" vertical-scroll-proportion="-1.02" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/DequeueTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#883#898#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/EnqueueTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/RecheckTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1122">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1142#1157#0" expanded="false" />
-            <element signature="e#2064#2254#0" expanded="false" />
-            <element signature="e#2239#2240#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/Networking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="64" selection-start="1441" selection-end="1454" vertical-scroll-proportion="0.8419811" vertical-offset="0" max-vertical-offset="2533">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3165#3301#0" expanded="true" />
-            <element signature="e#3290#3291#0" expanded="true" />
-            <element signature="e#3345#3525#0" expanded="true" />
-            <element signature="e#3514#3515#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="46" selection-start="575" selection-end="575" vertical-scroll-proportion="-8.16" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="47" selection-start="2856" selection-end="2856" vertical-scroll-proportion="-12.7" vertical-offset="555" max-vertical-offset="1428">
+        <state line="62" column="42" selection-start="2618" selection-end="2631" vertical-scroll-proportion="0.7456359" vertical-offset="755" max-vertical-offset="1275">
           <folding>
-            <element signature="e#714#729#0" expanded="true" />
-            <element signature="e#1040#1058#0" expanded="true" />
-            <element signature="e#1422#1436#0" expanded="true" />
-            <element signature="e#1751#1764#0" expanded="true" />
-            <element signature="e#2225#2249#0" expanded="true" />
+            <element signature="e#721#736#0" expanded="true" />
+            <element signature="e#1055#1073#0" expanded="true" />
+            <element signature="e#1429#1443#0" expanded="true" />
+            <element signature="e#1861#1885#0" expanded="true" />
+            <element signature="e#2529#2552#0" expanded="true" />
           </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/VideoViewActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="40" selection-start="2218" selection-end="2218" vertical-scroll-proportion="-40.8" vertical-offset="0" max-vertical-offset="1241">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/MediaActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="48" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.91977614" vertical-offset="425" max-vertical-offset="1122">
+        <state line="14" column="13" selection-start="338" selection-end="338" vertical-scroll-proportion="-0.13957936" vertical-offset="311" max-vertical-offset="1088">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1638#2095#0" expanded="true" />
-            <element signature="e#2084#2085#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/VideoViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="38" selection-start="954" selection-end="1021" vertical-scroll-proportion="-10.88" vertical-offset="153" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/MenuActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="38" selection-start="868" selection-end="868" vertical-scroll-proportion="-8.84" vertical-offset="255" max-vertical-offset="1666">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#990#998#0" expanded="true" />
+            <element signature="e#1429#1437#0" expanded="true" />
+            <element signature="e#1633#3558#0" expanded="true" />
+            <element signature="e#2722#3027#0" expanded="true" />
+            <element signature="e#3000#3001#0" expanded="true" />
+            <element signature="e#3086#3391#0" expanded="true" />
+            <element signature="e#3364#3365#0" expanded="true" />
+            <element signature="e#3547#3548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/menu.xml">
+      <provider editor-type-id="text-editor">
+        <state line="7" column="4" selection-start="265" selection-end="265" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/csungreen/In_Plane_App/Networking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="36" selection-start="2458" selection-end="2470" vertical-scroll-proportion="-0.03250478" vertical-offset="1224" max-vertical-offset="1819">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

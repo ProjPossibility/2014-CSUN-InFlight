@@ -2,8 +2,10 @@ package com.csungreen.In_Plane_App;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.MimeTypeMap;
 import android.widget.Button;
 import android.view.View.OnClickListener;
 import android.net.Uri;
@@ -54,9 +56,7 @@ public class MediaActivity extends Activity {
                 // Start NewActivity.class
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://172.31.176.125/article.pdf"));
                 startActivity(browserIntent);
-                /*Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setType("application/pdf");
-                i.setData(Uri.fromFile(file));*/
+
             }
         });
     }

@@ -21,6 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MediaActivity" />
+        <activity android:name=".MenuActivity" />
         <activity android:name=".VideoViewActivity" />
     </application>
 </manifest>

@@ -11,7 +11,7 @@
             android:layout_marginTop="20sp"
             android:textColor="#000000"
             android:id="@+id/digitalClock" android:layout_toRightOf="@+id/bFoodnBev"
-            android:textSize="25sp" />
+            android:textSize="40sp" />
     <Button
             android:layout_width="200dp"
             android:layout_height="200dp"
@@ -19,7 +19,7 @@
             android:textSize="25sp"
             android:id="@+id/bEntertainment"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="75dp"
+            android:layout_toLeftOf="@+id/bLavatory"
             />
     <Button
             android:layout_width="200dp"
@@ -29,7 +29,7 @@
             android:layout_gravity="bottom"
             android:id="@+id/bLavatory"
             android:layout_centerVertical="true"
-            android:layout_toRightOf="@+id/bEntertainment"
+            android:layout_centerHorizontal="true"
             />
     <Button
             android:layout_width="200dp"
@@ -40,42 +40,30 @@
             android:id="@+id/bFoodnBev"
             android:layout_toRightOf="@+id/bLavatory"
             />
-    <Button
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:text="@string/map"
-            android:textSize="25sp"
-            android:id="@+id/bMap"
-            android:layout_toRightOf="@+id/bFoodnBev"
-            android:layout_centerVertical="true"
-            />
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/request_response"
-            android:layout_above="@+id/seekBar"
             android:textColor="#000000"
             android:text="@string/seek_bar_label"
-            android:textSize="25sp"
-            android:layout_alignLeft="@+id/bEntertainment"
-            />
+            android:textSize="40sp"
+            android:layout_above="@+id/seekBar" android:layout_alignLeft="@+id/seekBar"/>
             <SeekBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/seekBar"
-            android:layout_alignParentBottom="true"
-            android:layout_alignLeft="@+id/bEntertainment"
-            android:layout_marginBottom="61dp"
-            android:layout_toLeftOf="@+id/bMap"/>
-
+            android:layout_marginBottom="57dp" android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="56dp"
+            android:layout_alignRight="@+id/bLavatory"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/accessibility"
+            android:textSize="25sp"
             android:id="@+id/accessibility"
             android:layout_alignBottom="@+id/seekBar"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="63dp"/>
+            android:layout_alignTop="@+id/request_response" android:layout_alignRight="@+id/digitalClock"
+            android:layout_toRightOf="@+id/seekBar"/>
 
 </RelativeLayout>
 
