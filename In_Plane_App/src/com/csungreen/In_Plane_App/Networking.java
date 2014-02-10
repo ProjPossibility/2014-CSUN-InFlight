@@ -4,11 +4,16 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.*;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.LayerDrawable;
+import android.graphics.drawable.ClipDrawable;
+import android.graphics.PorterDuff;
 import org.apache.http.ProtocolVersion;
 import org.apache.http.RequestLine;
 import org.apache.http.client.HttpClient;
@@ -30,6 +35,7 @@ public class Networking extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
 
 
         media = (Button) findViewById(R.id.bEntertainment);
@@ -55,6 +61,8 @@ public class Networking extends Activity
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+
+
                 map.setTextSize(20+progress);
                 menu.setTextSize(20+progress);
                 bathroom.setTextSize(20+progress);
@@ -148,4 +156,5 @@ public class Networking extends Activity
         setContentView(R.layout.lavatory);
         ToggleButton bathroom = new ToggleButton();
     }*/
+
 }
