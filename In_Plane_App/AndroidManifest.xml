@@ -12,7 +12,8 @@
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
         <activity android:name="Networking"
                   android:label="@string/app_name"
-                   android:textSize="50dp"
+                  android:textSize="50dp"
+                  android:screenOrientation="landscape"
                 >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

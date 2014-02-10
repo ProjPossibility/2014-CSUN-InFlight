@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.view.View.OnClickListener;
+import android.net.Uri;
 
 
 
@@ -13,6 +14,7 @@ public class MediaActivity extends Activity {
 
     Button video;
     Button music;
+    Button periodical;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +25,8 @@ public class MediaActivity extends Activity {
         // Locate the button in activity_main.xml
         video = (Button) findViewById(R.id.MyVideoButton);
         music = (Button) findViewById(R.id.MyMusicButton);
+        periodical = (Button) findViewById(R.id.MyPeriodicalButton);
+
         // Capture button clicks
         video.setOnClickListener(new OnClickListener() {
             public void onClick(View arg0) {
@@ -42,6 +46,17 @@ public class MediaActivity extends Activity {
                         VideoViewActivity.class);
                 myIntent.putExtra("streamType", "music");
                 startActivity(myIntent);
+            }
+        });
+        periodical.setOnClickListener(new OnClickListener() {
+            public void onClick(View arg0) {
+
+                // Start NewActivity.class
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://172.31.176.125/article.pdf"));
+                startActivity(browserIntent);
+                /*Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setType("application/pdf");
+                i.setData(Uri.fromFile(file));*/
             }
         });
     }
